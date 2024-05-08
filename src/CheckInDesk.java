@@ -12,5 +12,10 @@ public class CheckInDesk
         this.totalWeight += w.getWeight();
     }
 
+    public void add(Passenger p)// Method overloading
+    {
+        this.totalWeight = p.getWeight();
+    }
+
 
 }
